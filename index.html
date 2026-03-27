@@ -16,17 +16,18 @@
             font-family: Arial, Helvetica, sans-serif;
             background: white;
             color: #111;
+            scroll-behavior: smooth;
         }
 
-        /* Navigation */
+        /* Header + Navigation */
         header {
             background: var(--main-blue);
             padding: 10px 40px;
             display: flex;
             justify-content: space-between;
             align-items: center;
-            color: white;
             box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+            color: white;
             position: sticky;
             top: 0;
             z-index: 100;
@@ -36,6 +37,7 @@
             height: 70px;
             width: auto;
             border-radius: 6px;
+            object-fit: cover;
         }
 
         nav a {
@@ -45,10 +47,12 @@
             font-size: 1.15rem;
             transition: 0.3s;
         }
+
         nav a:hover {
             color: var(--light-blue);
         }
 
+        /* Content sections */
         section {
             padding: 80px 15%;
             opacity: 0;
@@ -81,7 +85,7 @@
         footer {
             background: #efefef;
             padding: 15px;
-            font-size: 0.8rem;
+            font-size: 0.9rem;
             color: #666;
             text-align: center;
             margin-top: 60px;
@@ -92,17 +96,17 @@
             font-size: 0.75rem;
             transition: 0.3s;
         }
+
         .hidden:hover {
             opacity: 1;
         }
-
     </style>
 </head>
 <body>
 
     <!-- HEADER + LOGO -->
     <header>
-        IMG_0714.jpeg
+        IMG_0714.jpg
 
         <nav>
             #entstehungEntstehung</a>
@@ -116,9 +120,10 @@
     <section id="entstehung">
         <h1>FlaggeWest – Die Entstehung</h1>
         <p>
-            FlaggeWest ist nicht nur ein Wohnheim – es ist eine Lebenseinstellung.  
-            Während FlaggeOST existiert, aber eher Durchschnitt liefert,  
-            hat FlaggeWest früh bewiesen: <strong>Wir sind die Cooleren.</strong>
+            FlaggeWest ist nicht nur ein Wohnheim – es ist eine Lebenseinstellung.
+            Während FlaggeOST existiert, aber eher Durchschnitt liefert,
+            hat FlaggeWest früh bewiesen:
+            <strong>Wir sind die Cooleren.</strong>
         </p>
     </section>
 
@@ -128,7 +133,8 @@
         <p>
             Aus einer Idee wurde eine Bewegung.  
             Aus einer WG wurde eine Familie.  
-            Aus der Familie wird ein Verein: <strong>FlaggeWest</strong>.
+            Und aus dieser Familie entsteht ein Verein:  
+            <strong>FlaggeWest</strong>.
         </p>
     </section>
 
@@ -136,8 +142,8 @@
     <section id="idee">
         <h2>Die Idee hinter FlaggeWest</h2>
         <p>
-            FlaggeWest steht für Zusammenhalt, Chaos, Ordnung (gelegentlich),  
-            Abenteuer, Humor, und das schöne Gefühl:  
+            FlaggeWest steht für Zusammenhalt, Humor, Chaos, Abenteuer,
+            gegenseitige Unterstützung – und das Wissen:
             <strong>Gemeinsam läuft’s einfach besser.</strong>
         </p>
     </section>
@@ -147,7 +153,6 @@
         <h2>Kontakt</h2>
         <p>
             Du willst Kontakt aufnehmen?<br><br>
-
             ✉️ <strong>E-Mail:</strong> kontakt@flaggewest.de<br>
             🏠 Standort: Die legendäre Flagge
         </p>
