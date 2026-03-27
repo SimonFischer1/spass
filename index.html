@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlaggeWest – Der coolste Verein</title>
+
+    <style>
+        :root {
+            --main-blue: #0d2b66;
+            --light-blue: #1454a8;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: white;
+            color: #111;
+        }
+
+        /* Navigation */
+        header {
+            background: var(--main-blue);
+            padding: 10px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: white;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        header img {
+            height: 70px;
+            width: auto;
+            border-radius: 6px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 25px;
+            font-size: 1.15rem;
+            transition: 0.3s;
+        }
+        nav a:hover {
+            color: var(--light-blue);
+        }
+
+        section {
+            padding: 80px 15%;
+            opacity: 0;
+            transform: translateY(40px);
+            animation: fadeIn 1s ease forwards;
+        }
+
+        section:nth-child(odd) {
+            background: #f8f8f8;
+        }
+
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        h1 {
+            color: var(--main-blue);
+            font-size: 3rem;
+        }
+
+        h2 {
+            color: var(--main-blue);
+            margin-top: 0;
+        }
+
+        /* Footer */
+        footer {
+            background: #efefef;
+            padding: 15px;
+            font-size: 0.8rem;
+            color: #666;
+            text-align: center;
+            margin-top: 60px;
+        }
+
+        .hidden {
+            opacity: 0.3;
+            font-size: 0.75rem;
+            transition: 0.3s;
+        }
+        .hidden:hover {
+            opacity: 1;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- HEADER + LOGO -->
+    <header>
+        IMG_0714.jpeg
+
+        <nav>
+            #entstehungEntstehung</a>
+            #gruendungGründung</a>
+            #ideeIdee</a>
+            #kontaktKontakt</a>
+        </nav>
+    </header>
+
+    <!-- ENTSTEHUNG -->
+    <section id="entstehung">
+        <h1>FlaggeWest – Die Entstehung</h1>
+        <p>
+            FlaggeWest ist nicht nur ein Wohnheim – es ist eine Lebenseinstellung.  
+            Während FlaggeOST existiert, aber eher Durchschnitt liefert,  
+            hat FlaggeWest früh bewiesen: <strong>Wir sind die Cooleren.</strong>
+        </p>
+    </section>
+
+    <!-- GRÜNDUNG -->
+    <section id="gruendung">
+        <h2>Die Gründung</h2>
+        <p>
+            Aus einer Idee wurde eine Bewegung.  
+            Aus einer WG wurde eine Familie.  
+            Aus der Familie wird ein Verein: <strong>FlaggeWest</strong>.
+        </p>
+    </section>
+
+    <!-- IDEE -->
+    <section id="idee">
+        <h2>Die Idee hinter FlaggeWest</h2>
+        <p>
+            FlaggeWest steht für Zusammenhalt, Chaos, Ordnung (gelegentlich),  
+            Abenteuer, Humor, und das schöne Gefühl:  
+            <strong>Gemeinsam läuft’s einfach besser.</strong>
+        </p>
+    </section>
+
+    <!-- KONTAKT -->
+    <section id="kontakt">
+        <h2>Kontakt</h2>
+        <p>
+            Du willst Kontakt aufnehmen?<br><br>
+
+            ✉️ <strong>E-Mail:</strong> kontakt@flaggewest.de<br>
+            🏠 Standort: Die legendäre Flagge
+        </p>
+    </section>
+
+    <!-- IMPRESSUM & LIEBE -->
+    <footer>
+        <p><strong>Diese Website wurde mit Liebe erstellt ❤️</strong></p>
+
+        <div class="hidden">
+            <p>
+                © 2026 FlaggeWest – Verein in Gründung  
+                <br>Impressum folgt nach offizieller Eintragung.
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
